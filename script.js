@@ -9,7 +9,7 @@ for(let i = 0; i < 800; i++){
 		box.style.backgroundColor = getRandomColor();
 
 		setTimeout(() =>{
-			 box.style.backgroundColor = 'rgb(204, 204, 204)';
+			box.style.backgroundColor = '';
 		}, 1000);
 	});
 	container.appendChild(box);
